@@ -1,6 +1,6 @@
 # ============================================================
 # spam_analysis.R
-# SMS Spam Analysis — Statistical Analysis & Visualisation
+# SMS Spam Analysis - Statistical Analysis & Visualisation
 # Author: D. Shivani
 # ============================================================
 # Dataset: SMS Spam Collection (UCI)
