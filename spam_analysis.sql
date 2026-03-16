@@ -1,6 +1,6 @@
 -- ============================================================
 -- spam_analysis.sql
--- SMS Spam Analysis — Pattern Detection & Signal Evaluation
+-- SMS Spam Analysis - Pattern Detection & Signal Evaluation
 -- Author: D. Shivani
 -- ============================================================
 -- Assumes a table: messages(message_id, label, content)
@@ -44,7 +44,7 @@ GROUP BY label;
 -- ------------------------------------------------------------
 
 -- Signal 1: Messages containing a phone number
--- Phone numbers are a strong spam signal — spammers want you to call them
+-- Phone numbers are a strong spam signal - spammers want you to call them
 SELECT
     label,
     COUNT(*)                            AS total,
