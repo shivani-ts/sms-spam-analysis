@@ -2,14 +2,14 @@
 
 **Domain:** Trust & Safety · Abuse Detection · Text Classification  
 **Tools:** SQL · R  
-**Dataset:** [SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection) — UCI Repository (public)  
+**Dataset:** [SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection) - UCI Repository (public)  
 **Status:** Complete
 
 ---
 
 ## Overview
 
-This project analyses 5,574 SMS messages to identify spam patterns and build a simple rule-based detection system. The goal was to understand what makes a message spam — not just flag it, but understand *why* — so that detection rules can be explained and improved over time.
+This project analyses 5,574 SMS messages to identify spam patterns and build a simple rule-based detection system. The goal was to understand what makes a message spam - not just flag it, but understand *why* - so that detection rules can be explained and improved over time.
 
 ---
 
@@ -39,12 +39,12 @@ sms-spam-analysis/
 
 ## Key Findings
 
-**Spam messages are significantly longer** than legitimate ones on average — they tend to pack in promotional content, URLs, and calls to action. The median spam message was 149 characters vs 62 for legitimate messages.
+**Spam messages are significantly longer** than legitimate ones on average - they tend to pack in promotional content, URLs, and calls to action. The median spam message was 149 characters vs 62 for legitimate messages.
 
 **Three signals reliably identify spam:**
 - Contains a phone number (e.g. "Call 07946...") — present in 38% of spam, under 1% of legitimate
-- Contains a URL — present in 29% of spam, 3% of legitimate
-- Contains prize/win keywords ("winner", "free", "prize", "claim") — present in 41% of spam
+- Contains a URL - present in 29% of spam, 3% of legitimate
+- Contains prize/win keywords ("winner", "free", "prize", "claim") - /present in 41% of spam
 
 **Rule-based detection results:**
 
@@ -55,7 +55,7 @@ sms-spam-analysis/
 | Prize/win keywords | 91% | 41% of spam |
 | Any one of the above | 83% | 63% of spam |
 
-A simple combination of these three rules catches **63% of spam** at **83% precision** — with no model required.
+A simple combination of these three rules catches **63% of spam** at **83% precision** - with no model required.
 
 ---
 
@@ -88,4 +88,4 @@ install.packages(c("tidyverse", "ggplot2", "scales"))
 
 ---
 
-*Project by D. Shivani · [LinkedIn](https://linkedin.com/in/your-profile)*
+*Project by D. Shivani*
